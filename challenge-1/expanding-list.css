@@ -22,4 +22,10 @@ li:nth-child(3) {
 li {
   padding: 1em;
   cursor: pointer;
+  height: 60px;
+  transition: height 1s;
+}
+
+li:hover {
+  height: 200px;
 }

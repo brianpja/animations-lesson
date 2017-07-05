@@ -27,6 +27,19 @@ input:focus {
 .error {
   border-color: red;
   /* Add Animation HERE */
+  animation: shake 1s;
 }
 
 /* define @keyframes HERE */
+@keyframes shake {
+  0%, 100% {
+    transform: translate(0,0) rotate(0deg);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translate(5px, 5px) rotate(-5deg);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translate(-5px, -5px) rotate(5deg);
+  }
+
+}

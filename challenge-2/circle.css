@@ -20,8 +20,12 @@
   background: #E20D63;
   border-radius: 50%;
   /* HERE */
+  transform: scale(0);
+  transition: all .5s ease-in-out;
 }
 
 .circle:hover:before {
   /* HERE */
+  transform: scale(10);
+  background: blue;
 }
